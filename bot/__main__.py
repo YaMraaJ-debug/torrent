@@ -83,7 +83,7 @@ def bot_help(update, context):
 
 /{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports
 
-Watch video - https://youtu.be/07Pj9YLdpM4
+For join #TeamDrive give your mail id & name [Lucifer](t.me/SSJ4GOGETA)
 '''
     sendMessage(help_string, context.bot, update)
 
