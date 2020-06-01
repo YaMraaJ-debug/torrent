@@ -87,7 +87,7 @@ OR use online terminal
 
 ``` pkg install python wget ``` (if not installed earlier)
 
-``` wget https://raw.githubusercontent.com/CW4RR10R/python-aria-mirror-bot/master/generate_string_session.py ```
+``` wget https://raw.githubusercontent.com/gogeta0sama/torrent-to-G-Drive/master/generate_string_session.py ```
 
 ``` pip install pyrogram tgcrypto ```
 
