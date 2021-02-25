@@ -45,7 +45,7 @@ class AriaDownloadHelper(DownloadHelper):
     def __onDownloadStopped(self, api, gid):
         if self.gid == gid:
             LOGGER.info("Called on_download_stop")
-            self.__listener.onDownloadError('Download stopped by user!')
+            self.__listener.onDownloadError('𝐘𝐨𝐮𝐫 𝐓𝐨𝐫𝐫𝐞𝐧𝐭 𝐇𝐚𝐬 𝐍𝐨 𝐒𝐞𝐞𝐝𝐬, ⚠️ 𝐃𝐞𝐚𝐝 𝐓𝐨𝐫𝐫𝐞𝐧𝐭 !')
 
     def __onDownloadError(self, api, gid):
         with self._resource_lock:
