@@ -41,7 +41,7 @@ class YoutubeDLHelper(DownloadHelper):
             'progress_hooks': [self.__onDownloadProgress],
             'logger': MyLogger(self),
             'usenetrc': True,
-            'format': "best/bestvideo+bestaudio"
+            'format': "bestvideo+bestaudio/best"
         }
         self.__download_speed = 0
         self.download_speed_readable = ''
