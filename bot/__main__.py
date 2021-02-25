@@ -31,8 +31,14 @@ def stats(update, context):
 
 @run_async
 def start(update, context):
-    sendMessage("This is a bot which can mirror all your links to Google drive!\n"
-                "Type /help to get a list of available commands", context.bot, update)
+    start_string = f'''
+<b>Hey {update.message.chat.first_name} I'm a Mirror bot Which Can Mirror all Torrents, Direct link & Google Drive!</b>
+<b>For Any Issues Contact My Owners :</b> @yamraaj007
+<b>Mirror Group :</b> Join @MirrorClouds To Use me
+<b>Main Chanal :</b> Join @python007support
+<b>Repo Link :</b> https://github.com/crazy-racer/torrent-to-G-Drive-1
+<b>Credits :</b> lzzy12/python-aria-mirror-bot
+'''
 
 
 @run_async
@@ -83,7 +89,7 @@ def bot_help(update, context):
 
 /{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports
 
-For join #TeamDrive give your mail id & name [Lucifer](t.me/SSJ4GOGETA)
+For join #TeamDrive give your mail id & name [Mirror∆Cloud](https://t.me/MirrorClouds)
 '''
     sendMessage(help_string, context.bot, update)
 
